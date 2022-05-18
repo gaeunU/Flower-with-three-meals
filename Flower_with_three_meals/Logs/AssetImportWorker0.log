@@ -1,352 +1,371 @@
-Unity Editor version:    2020.3.34f1 (9a4c9c70452b)
-Branch:                  2020.3/release
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 11.6 (Build 20G165)
-Darwin version:          20.6.0
-Architecture:            x86_64
-Running under Rosetta:   NO
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/release' branch; Version is '2020.3.34f1 (9a4c9c70452b) revision 10112156'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'ko' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/uga-eun/Desktop/Flower-with-three-meals/Flower_with_three_meals
+C:/Users/Shieun/Documents/SeriousProject/Flower_with_three_meals
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52420
-Successfully changed project path to: /Users/uga-eun/Desktop/Flower-with-three-meals/Flower_with_three_meals
-/Users/uga-eun/Desktop/Flower-with-three-meals/Flower_with_three_meals
+58210
+Successfully changed project path to: C:/Users/Shieun/Documents/SeriousProject/Flower_with_three_meals
+C:/Users/Shieun/Documents/SeriousProject/Flower_with_three_meals
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 42.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 69.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
-[Subsystems] Discovering subsystems at path /Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/uga-eun/Desktop/Flower-with-three-meals/Flower_with_three_meals/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Shieun/Documents/SeriousProject/Flower_with_three_meals/Assets
 GfxDevice: creating device client; threaded=0
-2022-05-16 17:30:20.562 Unity[16561:200814] Color LCD preferred device: AMD Radeon Pro 5500M (high power)
-2022-05-16 17:30:20.563 Unity[16561:200814] Metal devices available: 2
-2022-05-16 17:30:20.563 Unity[16561:200814] 0: AMD Radeon Pro 5500M (high power)
-2022-05-16 17:30:20.563 Unity[16561:200814] 1: Intel(R) UHD Graphics 630 (low power)
-2022-05-16 17:30:20.563 Unity[16561:200814] Using device AMD Radeon Pro 5500M (high power)
-Initializing Metal device caps: AMD Radeon Pro 5500M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3964 MB
+    Driver:   30.0.15.1169
 Initialize mono
-Mono path[0] = '/Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/Managed'
-Mono path[1] = '/Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56561
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: /Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: /Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000591 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005417 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 38.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.625 seconds
+- Completed reload, in  0.730 seconds
 Domain Reload Profiling:
-	ReloadAssembly (625ms)
-		BeginReloadAssembly (48ms)
+	ReloadAssembly (730ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (503ms)
-			LoadAssemblies (47ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
+			SetupTypeCache (183ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (199ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (172ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (28ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001159 seconds.
+Registered in 0.007284 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 42.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.184 seconds
+- Completed reload, in  1.347 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1185ms)
-		BeginReloadAssembly (159ms)
+	ReloadAssembly (1348ms)
+		BeginReloadAssembly (225ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (964ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1005ms)
+			LoadAssemblies (177ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
+			SetupTypeCache (314ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (61ms)
-			SetupLoadedEditorAssemblies (372ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (380ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.000120 seconds.
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.000163 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Users/uga-eun/Desktop/0.2022_1학기/3. Unity/2020.3.34f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.29 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 219.1 MB.
-System memory in use after: 218.2 MB.
+Unloading 2204 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.0 MB.
+System memory in use after: 97.0 MB.
 
-Unloading 105 unused Assets to reduce memory usage. Loaded Objects now: 2675.
-Total: 3.433438 ms (FindLiveObjects: 0.150951 ms CreateObjectMapping: 0.085688 ms MarkObjects: 2.684461 ms  DeleteObjects: 0.511762 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2635.
+Total: 3.318900 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.099600 ms MarkObjects: 2.891700 ms  DeleteObjects: 0.145100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.004040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.083167 seconds.
   path: Assets/image
   artifactKey: Guid(553544e5f096b488d860945e664e67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image using Guid(553544e5f096b488d860945e664e67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ff64693fd0766326b8aa7e48aec4577') in 0.001606 seconds 
+Start importing Assets/image using Guid(553544e5f096b488d860945e664e67f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75995367016e0d0c57c404b921dc64a') in 0.012324 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.996684 seconds.
-  path: Assets/image/Flower
-  artifactKey: Guid(d71fa8fc96f034ab285c6418d2aa4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower using Guid(d71fa8fc96f034ab285c6418d2aa4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229c4d1e45e421e14a2b858eee4154bd') in 0.001372 seconds 
+  Time since last request: 0.000444 seconds.
+  path: Assets/image/Background/KakaoTalk_Photo_2022-05-16-17-54-00 005.jpeg
+  artifactKey: Guid(90e64b55031e64474a012222dffd25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Background/KakaoTalk_Photo_2022-05-16-17-54-00 005.jpeg using Guid(90e64b55031e64474a012222dffd25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfd602ceb1e5db728e20ea06fedfc45') in 0.155878 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 63.982087 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-32 001.jpeg
-  artifactKey: Guid(01c87df19691a45d884b456eeef7e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-32 001.jpeg using Guid(01c87df19691a45d884b456eeef7e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d15637d35df08c51bf24d7450d85a46') in 0.982437 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 003.jpeg
-  artifactKey: Guid(8c3a13a5374154eb3b73514694280740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 003.jpeg using Guid(8c3a13a5374154eb3b73514694280740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f826f93043ffca5760e83f97b5f3918') in 0.025228 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 011.jpeg
-  artifactKey: Guid(a40c42ee4412b40d98d127f121d40b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 011.jpeg using Guid(a40c42ee4412b40d98d127f121d40b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25055e0c8e75d6e50adee183a0d4f72d') in 0.020581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 010.jpeg
-  artifactKey: Guid(1d0548ecf83ac4590a6d226e9583ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 010.jpeg using Guid(1d0548ecf83ac4590a6d226e9583ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58665bbdb78d9aa58b9b2e712fed03ba') in 0.017370 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 009.jpeg
-  artifactKey: Guid(e0cbbe6be792840e08ecec9e3d62c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 009.jpeg using Guid(e0cbbe6be792840e08ecec9e3d62c532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c762ce5932913ae5567331e2af8b9cf5') in 0.019805 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 006.jpeg
-  artifactKey: Guid(df360a5682ffb47dd9ef281b67c2ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 006.jpeg using Guid(df360a5682ffb47dd9ef281b67c2ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef3622e854d6d4a942cb96bd4bc62bc') in 0.018512 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 005.jpeg
-  artifactKey: Guid(98c09b4789ab5455590f7552f8b8608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 005.jpeg using Guid(98c09b4789ab5455590f7552f8b8608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ea29f26dde7efd1b9a4d519015b18f') in 0.017523 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 002.jpeg
-  artifactKey: Guid(ff81943a0417d48a9b26ae858d8b0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 002.jpeg using Guid(ff81943a0417d48a9b26ae858d8b0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e38f4d3d4082966d0beb6ccf3f36d886') in 0.017759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 008.jpeg
-  artifactKey: Guid(8c75001e12f3f4fb2a648b5674bd7733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 008.jpeg using Guid(8c75001e12f3f4fb2a648b5674bd7733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600770247c978ecfc8dbc6ed81ff61b8') in 0.020943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 013.jpeg
-  artifactKey: Guid(8705b85064c1449e0b370ba4682cb643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 013.jpeg using Guid(8705b85064c1449e0b370ba4682cb643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5147747af63c292b7d90a4b9210d9684') in 0.020391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 007.jpeg
-  artifactKey: Guid(744f00998465c42ee8ecb020fd491e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 007.jpeg using Guid(744f00998465c42ee8ecb020fd491e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66b55c8c9946964ef02474db54a63b8d') in 0.017947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 012.jpeg
-  artifactKey: Guid(9a8613fd525224400b8e83b01442860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 012.jpeg using Guid(9a8613fd525224400b8e83b01442860a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7a709ed9dfcdb91d51b19a05df624c') in 0.019373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 004.jpeg
-  artifactKey: Guid(ba3ace43ffd304e8c9a43259898241f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 004.jpeg using Guid(ba3ace43ffd304e8c9a43259898241f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263561b0608dcc5b078f1c909eaf8242') in 0.017785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 132.932438 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 004.jpeg
-  artifactKey: Guid(e6d1209fde42d4b908fbda31e34047bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 004.jpeg using Guid(e6d1209fde42d4b908fbda31e34047bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4102f9983c6e228d6cd36159d69061') in 0.050193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 005.jpeg
-  artifactKey: Guid(3014d250fca464a5bbc8a05c49327508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 005.jpeg using Guid(3014d250fca464a5bbc8a05c49327508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd059e13b3609474dddb5f3a014913cc3') in 0.018532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 001.jpeg
-  artifactKey: Guid(7699846c7a1004123b251f26223c14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 001.jpeg using Guid(7699846c7a1004123b251f26223c14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '226600fb0c6b6a8c288fcdfa10c99a94') in 0.019656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 003.jpeg
-  artifactKey: Guid(24dfcef4a435e4bdba7422c8314445ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 003.jpeg using Guid(24dfcef4a435e4bdba7422c8314445ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fe95a22bf4cb2a8c92ddcd3318aab3') in 0.017550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 002.jpeg
-  artifactKey: Guid(735fb51fc23334679887a5fe2353279e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 002.jpeg using Guid(735fb51fc23334679887a5fe2353279e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972be985b2a52b7d501eef09056cdabf') in 0.020213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1059.009945 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39830e642e86629427d938554181f2fd') in 0.001011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.852233 seconds.
-  path: Assets/Scenes/Scene 1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1d1ad83319ce1426eceb8d005ed2bf') in 0.000856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.896996 seconds.
-  path: Assets/Scenes/Scene 2.unity
-  artifactKey: Guid(045d27dfad21043b2834a26db3d59c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 2.unity using Guid(045d27dfad21043b2834a26db3d59c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb00f2c96b1d32a025223fb5e8d25170') in 0.001355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.081185 seconds.
-  path: Assets/Scenes/Scene 3.unity
-  artifactKey: Guid(fe14d9be913f6451bb9bd4f3f913893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 3.unity using Guid(fe14d9be913f6451bb9bd4f3f913893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309620a8bfa464af0482c74c88f3acf4') in 0.001736 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.251673 seconds.
-  path: Assets/Scenes/Scene 4.unity
-  artifactKey: Guid(1b8012201528248359cfa3e25c001d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene 4.unity using Guid(1b8012201528248359cfa3e25c001d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a985fbb1ba76edf4f2bed4d40b4ec8fa') in 0.001397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.301951 seconds.
+  Time since last request: 0.000329 seconds.
   path: Assets/image/Background
   artifactKey: Guid(9ef4a1babbc3a4a6495eab66476b9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Background using Guid(9ef4a1babbc3a4a6495eab66476b9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9251b328197d637ca9287c43a9c4a016') in 0.001370 seconds 
+Start importing Assets/image/Background using Guid(9ef4a1babbc3a4a6495eab66476b9145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d7f3ffc5e0755d1b2d293ffc377e54') in 0.011081 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.115537 seconds.
+  Time since last request: 0.565350 seconds.
+  path: Assets/image/Flower
+  artifactKey: Guid(d71fa8fc96f034ab285c6418d2aa4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower using Guid(d71fa8fc96f034ab285c6418d2aa4a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63d2c2f999355278d255a8d89f9762a') in 0.013124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037447 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-32 001.jpeg
+  artifactKey: Guid(01c87df19691a45d884b456eeef7e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-32 001.jpeg using Guid(01c87df19691a45d884b456eeef7e1fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ad81a0a753245490a367d05cb30734') in 0.032478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 005.jpeg
+  artifactKey: Guid(3014d250fca464a5bbc8a05c49327508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 005.jpeg using Guid(3014d250fca464a5bbc8a05c49327508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e347d43461c5d8a32551751b11d32f20') in 0.039508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000708 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 011.jpeg
+  artifactKey: Guid(a40c42ee4412b40d98d127f121d40b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 011.jpeg using Guid(a40c42ee4412b40d98d127f121d40b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00973e7938150eedfc92501998f8deea') in 0.042890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 010.jpeg
+  artifactKey: Guid(1d0548ecf83ac4590a6d226e9583ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 010.jpeg using Guid(1d0548ecf83ac4590a6d226e9583ec16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fffbd79fecfae4072a0b80a86f51a69') in 0.050908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 001.jpeg
+  artifactKey: Guid(7699846c7a1004123b251f26223c14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 001.jpeg using Guid(7699846c7a1004123b251f26223c14cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff01807cb45305516e3cb3cad1f1871') in 0.042328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 006.jpeg
+  artifactKey: Guid(df360a5682ffb47dd9ef281b67c2ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 006.jpeg using Guid(df360a5682ffb47dd9ef281b67c2ee4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33998dc9ffed7571b40dd4098d316836') in 0.039967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000904 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 005.jpeg
+  artifactKey: Guid(98c09b4789ab5455590f7552f8b8608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 005.jpeg using Guid(98c09b4789ab5455590f7552f8b8608b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9955a43a64522b7262c40ded238f0b') in 0.037546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 002.jpeg
+  artifactKey: Guid(ff81943a0417d48a9b26ae858d8b0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 002.jpeg using Guid(ff81943a0417d48a9b26ae858d8b0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecdc9ed80fcd598f546729772bf04d1') in 0.050572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 003.jpeg
+  artifactKey: Guid(24dfcef4a435e4bdba7422c8314445ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 003.jpeg using Guid(24dfcef4a435e4bdba7422c8314445ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb7e33efde72c4b17a307c17592b6cb') in 0.046648 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 013.jpeg
+  artifactKey: Guid(8705b85064c1449e0b370ba4682cb643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 013.jpeg using Guid(8705b85064c1449e0b370ba4682cb643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4456bfdec7655b6e135d1c3c02fbecd8') in 0.046302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 007.jpeg
+  artifactKey: Guid(744f00998465c42ee8ecb020fd491e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-31-33 007.jpeg using Guid(744f00998465c42ee8ecb020fd491e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd6156929ed0f1f82dfbb7596fbe212') in 0.036512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 004.jpeg
+  artifactKey: Guid(e6d1209fde42d4b908fbda31e34047bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 004.jpeg using Guid(e6d1209fde42d4b908fbda31e34047bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a055c2bee26cf5ffb238d28755134a3') in 0.043140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 002.jpeg
+  artifactKey: Guid(735fb51fc23334679887a5fe2353279e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/image/Flower/KakaoTalk_Photo_2022-05-16-17-33-46 002.jpeg using Guid(735fb51fc23334679887a5fe2353279e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8dd817179283aa26fa3acf1701c34c8') in 0.044859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.300901 seconds.
   path: Assets/image/Seed
   artifactKey: Guid(915b914e78bd84eb9ab4a36702804f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Seed using Guid(915b914e78bd84eb9ab4a36702804f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43c72f647df90437368de8702b86447') in 0.001455 seconds 
+Start importing Assets/image/Seed using Guid(915b914e78bd84eb9ab4a36702804f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '111ef71bf1400b561afe500ced54701c') in 0.008066 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 27.733255 seconds.
+  Time since last request: 0.033972 seconds.
   path: Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-53-59 001.jpeg
   artifactKey: Guid(d6e52c2c96469459c9917151edefc5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-53-59 001.jpeg using Guid(d6e52c2c96469459c9917151edefc5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4879fd0955d3b2ab8b589beefb92a000') in 0.022940 seconds 
+Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-53-59 001.jpeg using Guid(d6e52c2c96469459c9917151edefc5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e60256d8100a7056c4aab9c78db89eb8') in 0.023924 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000168 seconds.
+  Time since last request: 0.000369 seconds.
   path: Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 003.jpeg
   artifactKey: Guid(3a6587cedee9e45689eb133c790d6676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 003.jpeg using Guid(3a6587cedee9e45689eb133c790d6676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de1419b9b1032ad747fd5de487063418') in 0.025981 seconds 
+Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 003.jpeg using Guid(3a6587cedee9e45689eb133c790d6676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c91e0d50c94cef29d7a976ec141456') in 0.026732 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
+  Time since last request: 0.000375 seconds.
   path: Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-53-59 002.jpeg
   artifactKey: Guid(9b1c0158146ff4a62ac0627ea1a53a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-53-59 002.jpeg using Guid(9b1c0158146ff4a62ac0627ea1a53a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f35b6a5b67da87146c7497757f7cb0') in 0.015249 seconds 
+Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-53-59 002.jpeg using Guid(9b1c0158146ff4a62ac0627ea1a53a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196823c9d088a657a60db0676b5dd02a') in 0.034003 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 005.jpeg
-  artifactKey: Guid(90e64b55031e64474a012222dffd25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 005.jpeg using Guid(90e64b55031e64474a012222dffd25d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5807630a74b8ca4ecf6b2d060f4e8a') in 0.016610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
+  Time since last request: 0.000522 seconds.
   path: Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 004.jpeg
   artifactKey: Guid(d5f9f41f24a0446a78a73ad3bfeee389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 004.jpeg using Guid(d5f9f41f24a0446a78a73ad3bfeee389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45094173926460c2c93ed473c4d2f423') in 0.016094 seconds 
+Start importing Assets/image/Seed/KakaoTalk_Photo_2022-05-16-17-54-00 004.jpeg using Guid(d5f9f41f24a0446a78a73ad3bfeee389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb91b78fc88f18a74f27a385d8c9c06') in 0.026051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 114.512316 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffae677c86e903bacef8065336249a81') in 0.011899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.611512 seconds.
+  path: Assets/Scenes/Intro.unity
+  artifactKey: Guid(ba34157cd32c1354e88233a3ee6a308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Intro.unity using Guid(ba34157cd32c1354e88233a3ee6a308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6cb47c0af71e5f1fb0c584eb7d0ae2') in 0.009445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 120.654558 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.014646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.184807 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(4f578e02fd9f326468b4e06607831ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(4f578e02fd9f326468b4e06607831ebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f395d34c2a71ef310757b33df20199') in 0.015316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.635753 seconds.
+  path: Assets/Resources/font
+  artifactKey: Guid(5b644b4cab84b7047b021a1114023595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/font using Guid(5b644b4cab84b7047b021a1114023595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6acf61dece4f62edc61f22f54193149d') in 0.011046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.804106 seconds.
+  path: Assets/Resources/font/나눔손글씨 느릿느릿체.ttf
+  artifactKey: Guid(a95ffc6adb96c76469bfc16555d28ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/font/나눔손글씨 느릿느릿체.ttf using Guid(a95ffc6adb96c76469bfc16555d28ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d31595032d8b232182d5b0cc8979db') in 0.112000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 177.083096 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(fe14d9be913f6451bb9bd4f3f913893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 3.unity using Guid(fe14d9be913f6451bb9bd4f3f913893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0e4bee3d87225b2884769f6082e28f') in 0.010382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.065466 seconds.
+  path: Assets/Scenes/Scene 3.unity
+  artifactKey: Guid(fe14d9be913f6451bb9bd4f3f913893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 3.unity using Guid(fe14d9be913f6451bb9bd4f3f913893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84cd2f1f5bd0a7ca39e8a06609b9f0b') in 0.007423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.394139 seconds.
+  path: Assets/Resources/image/Icon
+  artifactKey: Guid(0bcd3df3f0eee3d46aaf66a9e01cd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon using Guid(0bcd3df3f0eee3d46aaf66a9e01cd211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b1aa8084aca05385a1b2a56799f13c') in 0.010433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.000941 seconds.
+  path: Assets/Resources/image/Icon/아이콘_꽃심기.png
+  artifactKey: Guid(06f1597277838b74cb5e02405781fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon/아이콘_꽃심기.png using Guid(06f1597277838b74cb5e02405781fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bf831d75f13b283cd237824944c886a') in 0.038353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Resources/image/Icon/아이콘_물주기.png
+  artifactKey: Guid(ef53da418632e9544a6f4abda75f89d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon/아이콘_물주기.png using Guid(ef53da418632e9544a6f4abda75f89d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c3741a06753f6afae819eb4eaf7a9b') in 0.039243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Resources/image/Icon/아이콘_꽃이동.png
+  artifactKey: Guid(d5585c468a1ec774eb8138621a4b0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon/아이콘_꽃이동.png using Guid(d5585c468a1ec774eb8138621a4b0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c39a5eaae0b0c36356310e73ae8a0d') in 0.022042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.290848 seconds.
+  path: Assets/Scenes/Scene 4.unity
+  artifactKey: Guid(1b8012201528248359cfa3e25c001d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 4.unity using Guid(1b8012201528248359cfa3e25c001d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da1d6ac7896bc51fbc65342294b2777') in 0.010464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 286.902112 seconds.
+  path: Assets/Resources/image/Icon/PlantIcon.png
+  artifactKey: Guid(06f1597277838b74cb5e02405781fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon/PlantIcon.png using Guid(06f1597277838b74cb5e02405781fe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8362ef83d6da8201e94fbd3acebe663') in 0.023536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.511799 seconds.
+  path: Assets/Resources/image/Icon/MoveIcon.png
+  artifactKey: Guid(d5585c468a1ec774eb8138621a4b0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon/MoveIcon.png using Guid(d5585c468a1ec774eb8138621a4b0cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7f019f383564333d8c17edea41cf25') in 0.022853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.253083 seconds.
+  path: Assets/Resources/image/Icon/WaterIcon.png
+  artifactKey: Guid(ef53da418632e9544a6f4abda75f89d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/image/Icon/WaterIcon.png using Guid(ef53da418632e9544a6f4abda75f89d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df6a0e5a72fafdc351198e5117506bb') in 0.019632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.093014 seconds.
+  path: Assets/Scenes/Scene 1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20c76bc0a87ac7403b8ab806f2186d3') in 0.008315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.857139 seconds.
+  path: Assets/Scenes/Scene 2.unity
+  artifactKey: Guid(045d27dfad21043b2834a26db3d59c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene 2.unity using Guid(045d27dfad21043b2834a26db3d59c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07edddb53eb78d97b151388a3fe92855') in 0.011643 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
