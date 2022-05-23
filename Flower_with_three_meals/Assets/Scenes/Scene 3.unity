@@ -465,7 +465,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 372553577}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2005940839}
+        m_TargetAssemblyTypeName: SeedPlant, Assembly-CSharp
+        m_MethodName: Daisy
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &372553577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -673,7 +685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 143, y: 1514, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -761,7 +773,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 577172265}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2005940839}
+        m_TargetAssemblyTypeName: SeedPlant, Assembly-CSharp
+        m_MethodName: Sunflower
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &577172265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1157,7 +1181,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1404412320}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2005940839}
+        m_TargetAssemblyTypeName: SeedPlant, Assembly-CSharp
+        m_MethodName: Camellia
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1404412320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1771,7 +1807,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2005940836
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1845,7 +1881,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa442c2eeeb1c421bb331e3bafb9d55e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lavender: {fileID: 242128657840089652, guid: 35aca8f2732b640ddb6451c085632422, type: 3}
+  lavenderseed: {fileID: 412906353947527882, guid: f0f4002cf6f1945b48fba90c659b27d8, type: 3}
+  sunflowerseed: {fileID: 3694204769691417172, guid: 2c771a789e56649688c1d1e1dd1d4bec, type: 3}
+  camelliaseed: {fileID: 8980326903101014951, guid: b3c0f05eb56084c8aaf64a274e1c5dc5, type: 3}
+  daisyseed: {fileID: 1635525335019213964, guid: 7b1986c65140e40bb841efa6f368fd4f, type: 3}
 --- !u!1 &2133102246
 GameObject:
   m_ObjectHideFlags: 0
