@@ -13,10 +13,15 @@ public class SeedPlant : MonoBehaviour
     float x;
     float y;
 
+
+    // plant sound
+    public AudioClip plant;
+    AudioSource audiosource;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        this.audiosource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -24,18 +29,23 @@ public class SeedPlant : MonoBehaviour
     {
         x = Random.Range(115,960);
         y = Random.Range(530,1523);
+        
     }
 
     public void Lavender()
     {
-        Debug.Log("You plant lavender seed !");
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 라벤더 씨앗을 심었습니다 !");
         temp = Instantiate(lavenderseed, new Vector3(x, y, 0), Quaternion.identity);
         temp.transform.SetParent(this.transform);
     }
 
     public void Sunflower()
     {
-        Debug.Log("You plant Sunflower seed !");
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 해바라기 씨앗을 심었습니다 !");
         temp = Instantiate(sunflowerseed, new Vector3(x, y, 0), Quaternion.identity);
         temp.transform.SetParent(this.transform);
 
@@ -43,14 +53,18 @@ public class SeedPlant : MonoBehaviour
 
     public void Camellia()
     {
-        Debug.Log("You plant Camellia seed !");
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 동백꽃 씨앗을 심었습니다 !");
         temp = Instantiate(camelliaseed, new Vector3(x, y, 0), Quaternion.identity);
         temp.transform.SetParent(this.transform);
 
     }
     public void Daisy()
     {
-        Debug.Log("You plant daisy seed !");
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 데이지 씨앗을 심었습니다 !");
         temp = Instantiate(daisyseed, new Vector3(x, y, 0), Quaternion.identity);
         temp.transform.SetParent(this.transform);
 
