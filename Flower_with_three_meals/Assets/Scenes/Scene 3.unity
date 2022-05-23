@@ -375,6 +375,7 @@ RectTransform:
   - {fileID: 1311773651}
   - {fileID: 467549111}
   - {fileID: 2005940836}
+  - {fileID: 1749322539}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1796,6 +1797,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634999333}
   m_CullTransparentMesh: 1
+--- !u!1 &1749322538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1749322539}
+  m_Layer: 5
+  m_Name: Seed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1749322539
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749322538}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -828.09, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 213531814}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1843631055
 GameObject:
   m_ObjectHideFlags: 0
@@ -2105,6 +2136,7 @@ MonoBehaviour:
   sunflowerseed: {fileID: 3694204769691417172, guid: 2c771a789e56649688c1d1e1dd1d4bec, type: 3}
   camelliaseed: {fileID: 8980326903101014951, guid: b3c0f05eb56084c8aaf64a274e1c5dc5, type: 3}
   daisyseed: {fileID: 1635525335019213964, guid: 7b1986c65140e40bb841efa6f368fd4f, type: 3}
+  Basicgroup: {fileID: 1749322538}
   plant: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
 --- !u!82 &2005940840
 AudioSource:

@@ -9,6 +9,7 @@ public class SeedPlant : MonoBehaviour
     public GameObject sunflowerseed;
     public GameObject camelliaseed;
     public GameObject daisyseed;
+    public GameObject Basicgroup;
 
     float x;
     float y;
@@ -38,7 +39,7 @@ public class SeedPlant : MonoBehaviour
         audiosource.Play();
         Debug.Log("당신은 라벤더 씨앗을 심었습니다 !");
         temp = Instantiate(lavenderseed, new Vector3(x, y, 0), Quaternion.identity);
-        temp.transform.SetParent(this.transform);
+        temp.transform.SetParent(Basicgroup.transform);
     }
 
     public void Sunflower()
@@ -47,7 +48,7 @@ public class SeedPlant : MonoBehaviour
         audiosource.Play();
         Debug.Log("당신은 해바라기 씨앗을 심었습니다 !");
         temp = Instantiate(sunflowerseed, new Vector3(x, y, 0), Quaternion.identity);
-        temp.transform.SetParent(this.transform);
+        temp.transform.SetParent(Basicgroup.transform);
 
     }
 
@@ -57,7 +58,7 @@ public class SeedPlant : MonoBehaviour
         audiosource.Play();
         Debug.Log("당신은 동백꽃 씨앗을 심었습니다 !");
         temp = Instantiate(camelliaseed, new Vector3(x, y, 0), Quaternion.identity);
-        temp.transform.SetParent(this.transform);
+        temp.transform.SetParent(Basicgroup.transform);
 
     }
     public void Daisy()
@@ -66,7 +67,7 @@ public class SeedPlant : MonoBehaviour
         audiosource.Play();
         Debug.Log("당신은 데이지 씨앗을 심었습니다 !");
         temp = Instantiate(daisyseed, new Vector3(x, y, 0), Quaternion.identity);
-        temp.transform.SetParent(this.transform);
+        temp.transform.SetParent(Basicgroup.transform);
 
     }
 
