@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Seed
+  - camelliaseed
+  - lavenderseed
+  - sunflowerseed
+  - daisyseed
   layers:
   - Default
   - TransparentFX

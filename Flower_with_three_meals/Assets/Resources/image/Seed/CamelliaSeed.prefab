@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2855722984862553038}
   m_Layer: 5
   m_Name: CamelliaSeed
-  m_TagString: Untagged
+  m_TagString: camelliaseed
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
