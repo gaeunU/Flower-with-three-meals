@@ -378,6 +378,7 @@ RectTransform:
   - {fileID: 1749322539}
   - {fileID: 1508063402}
   - {fileID: 1020274099}
+  - {fileID: 2107290412}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -532,6 +533,7 @@ GameObject:
   - component: {fileID: 467549112}
   - component: {fileID: 467549114}
   - component: {fileID: 467549115}
+  - component: {fileID: 467549116}
   m_Layer: 5
   m_Name: BasicGroup
   m_TagString: Untagged
@@ -615,11 +617,6 @@ MonoBehaviour:
   watering: {fileID: 1508063401}
   sunflowerseed: {fileID: 3694204769691417172, guid: 2c771a789e56649688c1d1e1dd1d4bec, type: 3}
   lavenderseed: {fileID: 412906353947527882, guid: f0f4002cf6f1945b48fba90c659b27d8, type: 3}
-  sunflower: {fileID: 2980729481542831842, guid: da7852b0a7b6142f2b0867b87e360eeb, type: 3}
-  lavender: {fileID: 965025807061643007, guid: 35aca8f2732b640ddb6451c085632422, type: 3}
-  camellia: {fileID: 2178169566586587776, guid: e25cfcb744ee84e598c2db4c2c2490a5, type: 3}
-  daisy: {fileID: 6788640753285988962, guid: c4c88ed451ede48299b983bfd8bfc4eb, type: 3}
-  flowergroup: {fileID: 1020274098}
   clicksound: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
   wateringsound: {fileID: 8300000, guid: 08d257968da2742edae3372b3184f2d9, type: 3}
 --- !u!82 &467549115
@@ -718,6 +715,32 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &467549116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467549110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa442c2eeeb1c421bb331e3bafb9d55e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lavenderseed: {fileID: 412906353947527882, guid: f0f4002cf6f1945b48fba90c659b27d8, type: 3}
+  sunflowerseed: {fileID: 3694204769691417172, guid: 2c771a789e56649688c1d1e1dd1d4bec, type: 3}
+  camelliaseed: {fileID: 8980326903101014951, guid: b3c0f05eb56084c8aaf64a274e1c5dc5, type: 3}
+  daisyseed: {fileID: 1635525335019213964, guid: 7b1986c65140e40bb841efa6f368fd4f, type: 3}
+  Basicgroup: {fileID: 1749322538}
+  flowergroup: {fileID: 1020274098}
+  watering: {fileID: 1508063401}
+  bird: {fileID: 2107290411}
+  sunflower: {fileID: 2980729481542831842, guid: da7852b0a7b6142f2b0867b87e360eeb, type: 3}
+  lavender: {fileID: 965025807061643007, guid: 35aca8f2732b640ddb6451c085632422, type: 3}
+  camellia: {fileID: 2178169566586587776, guid: e25cfcb744ee84e598c2db4c2c2490a5, type: 3}
+  daisy: {fileID: 6788640753285988962, guid: c4c88ed451ede48299b983bfd8bfc4eb, type: 3}
+  plant: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
+  wateringsound: {fileID: 8300000, guid: 08d257968da2742edae3372b3184f2d9, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1739,8 +1762,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 467549114}
-        m_TargetAssemblyTypeName: Button, Assembly-CSharp
+      - m_Target: {fileID: 467549116}
+        m_TargetAssemblyTypeName: SeedPlant, Assembly-CSharp
         m_MethodName: water
         m_Mode: 1
         m_Arguments:
@@ -2287,7 +2310,15 @@ MonoBehaviour:
   camelliaseed: {fileID: 8980326903101014951, guid: b3c0f05eb56084c8aaf64a274e1c5dc5, type: 3}
   daisyseed: {fileID: 1635525335019213964, guid: 7b1986c65140e40bb841efa6f368fd4f, type: 3}
   Basicgroup: {fileID: 1749322538}
+  flowergroup: {fileID: 1020274098}
+  watering: {fileID: 1508063401}
+  bird: {fileID: 2107290411}
+  sunflower: {fileID: 2980729481542831842, guid: da7852b0a7b6142f2b0867b87e360eeb, type: 3}
+  lavender: {fileID: 965025807061643007, guid: 35aca8f2732b640ddb6451c085632422, type: 3}
+  camellia: {fileID: 2178169566586587776, guid: e25cfcb744ee84e598c2db4c2c2490a5, type: 3}
+  daisy: {fileID: 6788640753285988962, guid: c4c88ed451ede48299b983bfd8bfc4eb, type: 3}
   plant: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
+  wateringsound: {fileID: 8300000, guid: 08d257968da2742edae3372b3184f2d9, type: 3}
 --- !u!82 &2005940840
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2384,6 +2415,101 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &2107290411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2107290412}
+  - component: {fileID: 2107290415}
+  - component: {fileID: 2107290414}
+  - component: {fileID: 2107290413}
+  m_Layer: 5
+  m_Name: Bird
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2107290412
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107290411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 213531814}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 1}
+  m_SizeDelta: {x: 1090, y: 1918}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &2107290413
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107290411}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 336a949a4f4a84baa8ec93fb44809e91, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2107290414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107290411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: dd70a7e24b9f443a18417a111e0656a7, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2107290415
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2107290411}
+  m_CullTransparentMesh: 1
 --- !u!1 &2133102246
 GameObject:
   m_ObjectHideFlags: 0
