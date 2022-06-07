@@ -13,6 +13,7 @@ public class SeedPlant : MonoBehaviour
     public GameObject flowergroup;
     public GameObject watering;
     public GameObject bird;
+    public GameObject butterfly;
 
     float x;
     float y;
@@ -166,6 +167,12 @@ public class SeedPlant : MonoBehaviour
             camellias = 0;
             ccount += 1;
 
+            // 참새 보이기
+            butterfly.SetActive(!butterfly.active);
+            audiosource.clip = birdsound;
+            audiosource.Play();
+            Invoke("butterflyFalse", 3.0f);
+
         }
         if (daisyseed && daisys >= 4 && dcount == 0)
         {
@@ -189,6 +196,10 @@ public class SeedPlant : MonoBehaviour
     {
         bird.SetActive(false);
     }
+    void butterflyFalse()
+    {
+        butterfly.SetActive(false);
+    }
 
-    
+
 }
