@@ -33,6 +33,7 @@ public class SeedPlant : MonoBehaviour
     // plant sound
     public AudioClip plant;
     public AudioClip wateringsound;
+    public AudioClip birdsound;
     AudioSource audiosource;
 
     
@@ -121,6 +122,8 @@ public class SeedPlant : MonoBehaviour
 
             // 참새 보이기
             bird.SetActive(!bird.active);
+            audiosource.clip = birdsound;
+            audiosource.Play();
             Invoke("birdFalse", 3.0f);
 
        //     Destroy(bird);

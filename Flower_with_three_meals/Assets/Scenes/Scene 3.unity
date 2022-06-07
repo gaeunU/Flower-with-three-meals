@@ -741,6 +741,7 @@ MonoBehaviour:
   daisy: {fileID: 6788640753285988962, guid: c4c88ed451ede48299b983bfd8bfc4eb, type: 3}
   plant: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
   wateringsound: {fileID: 8300000, guid: 08d257968da2742edae3372b3184f2d9, type: 3}
+  birdsound: {fileID: 8300000, guid: 0ecb0cf1302574c398c7b055901b94ea, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2319,6 +2320,7 @@ MonoBehaviour:
   daisy: {fileID: 6788640753285988962, guid: c4c88ed451ede48299b983bfd8bfc4eb, type: 3}
   plant: {fileID: 8300000, guid: 7bd6b897eb5ca4b7d88a205c4a51640c, type: 3}
   wateringsound: {fileID: 8300000, guid: 08d257968da2742edae3372b3184f2d9, type: 3}
+  birdsound: {fileID: 0}
 --- !u!82 &2005940840
 AudioSource:
   m_ObjectHideFlags: 0
