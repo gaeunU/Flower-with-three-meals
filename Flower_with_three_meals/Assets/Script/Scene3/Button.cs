@@ -19,8 +19,6 @@ public class Button : MonoBehaviour
     float daisys = 0;
 
 
-    
-
     float x;
     float y;
     Vector3 pos;
