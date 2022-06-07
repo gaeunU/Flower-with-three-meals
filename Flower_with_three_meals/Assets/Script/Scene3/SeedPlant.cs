@@ -106,37 +106,48 @@ public class SeedPlant : MonoBehaviour
         audiosource.Play();
         Debug.Log("물주기 버튼을 눌렀습니다.");
         watering.SetActive(!watering.active);
-        Destroy(Basicgroup);
 
-
+        GameObject lseed = GameObject.FindGameObjectWithTag("lavenderseed");
+        GameObject sseed = GameObject.FindGameObjectWithTag("sunflowerseed");
+        GameObject cseed = GameObject.FindGameObjectWithTag("camelliaseed");
+        GameObject dseed = GameObject.FindGameObjectWithTag("daisyseed");
 
         if (lavenderseed)
-            lavenders += 0.5f;
+        {
+            lavenders += 1f;
+        }
         if (sunflowerseed)
-            sunflowers += 0.5f;
+        {
+            sunflowers += 1f;
+        }
         if (camelliaseed)
-            camellias += 0.5f;
+        {
+            camellias += 1f;
+        }
         if (daisyseed)
-            daisys += 0.5f;
+        {
+            daisys += 1f;
+        }
+
         Debug.Log("lavender : " + lavenders + "sun : " + sunflowers + "camellia : " + camellias + "daisy : " + daisys);
 
-        // 만약 라벤더 씨앗이 활성화 되어있ㄱ
+        // 만약 라벤더 씨앗이 활성화 되어있있다면..
         if (lavenderseed && lavenders >= 1 && lcount == 0)
         {
-            x = Random.Range(115, 960);
-            y = Random.Range(530, 1523);
-            temp = Instantiate(lavender, new Vector3(x, y, 0), Quaternion.identity);
+
+            pos = lseed.transform.position;
+            temp = Instantiate(lavender, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
             Debug.Log("라벤더 꽃이 자랐습니다.");
             temp.transform.SetParent(flowergroup.transform);
-            
+            Destroy(lseed);
+
             // 참새 보이기
             bird1.SetActive(!bird1.active);
             audiosource.clip = birdsound;
             audiosource.Play();
+
+            // 3초 후 사라져
             Invoke("animalfalse", 3.0f);
-
-            //     Destroy(bird);
-
 
             lavenders = 0;
             lcount += 1;
@@ -144,12 +155,12 @@ public class SeedPlant : MonoBehaviour
 
         if (sunflowerseed && sunflowers >= 2 && scount == 0)
         {
-            x = Random.Range(115, 960);
-            y = Random.Range(530, 1523);
+            
+            
+            pos = sseed.transform.position;
+            temp = Instantiate(sunflower, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+            Destroy(sseed);
 
-            pos = sunflowerseed.transform.position;
-            temp = Instantiate(sunflower, new Vector3(x, y, 0), Quaternion.identity);
-      //      Destroy(sunflowerseed);
             Debug.Log("해바라기 꽃이 자랐습니다.");
             temp.transform.SetParent(flowergroup.transform);
             sunflowers = 0;
@@ -159,17 +170,17 @@ public class SeedPlant : MonoBehaviour
             butterfly1.SetActive(!butterfly1.active);
             audiosource.clip = birdsound;
             audiosource.Play();
+
+            // 3초 후 사라져
             Invoke("animalfalse", 3.0f);
 
         }
         if (camelliaseed && camellias >= 3 && ccount == 0)
         {
-            x = Random.Range(115, 960);
-            y = Random.Range(530, 1523);
-
-            pos = sunflowerseed.transform.position;
-            temp = Instantiate(camellia, new Vector3(x, y, 0), Quaternion.identity);
-        //    Destroy(camelliaseed);
+           
+            pos = cseed.transform.position;
+            temp = Instantiate(camellia, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+            Destroy(cseed);
             Debug.Log("동백꽃이 자랐습니다.");
             temp.transform.SetParent(flowergroup.transform);
             camellias = 0;
@@ -179,17 +190,17 @@ public class SeedPlant : MonoBehaviour
             bird2.SetActive(!bird2.active);
             audiosource.clip = birdsound;
             audiosource.Play();
+
+            // 3초 후 사라져
             Invoke("animalfalse", 3.0f);
 
         }
         if (daisyseed && daisys >= 4 && dcount == 0)
         {
-            x = Random.Range(115, 960);
-            y = Random.Range(530, 1523);
-
-            pos = sunflowerseed.transform.position;
-            temp = Instantiate(daisy, new Vector3(x, y, 0), Quaternion.identity);
-          //  Destroy(daisyseed);
+           
+            pos = dseed.transform.position;
+            temp = Instantiate(daisy, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
+            Destroy(dseed);
             Debug.Log("데이지꽃이 자랐습니다.");
             temp.transform.SetParent(flowergroup.transform);
             daisys = 0;
@@ -199,10 +210,14 @@ public class SeedPlant : MonoBehaviour
             butterfly2.SetActive(!butterfly2.active);
             audiosource.clip = birdsound;
             audiosource.Play();
+
+            // 3초 후 사라져
             Invoke("animalfalse", 3.0f);
 
         }
 
+        // 3초 후 사라져
+        Invoke("animalfalse", 3.0f);
 
     }
 
@@ -223,6 +238,9 @@ public class SeedPlant : MonoBehaviour
         else if (butterfly2.active == true)
         {
             butterfly2.SetActive(false);
+        }else if(watering.active == true)
+        {
+            watering.SetActive(false);
         }
     }
     
