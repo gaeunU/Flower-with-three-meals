@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637882863160000000
+      ticks: 637906774010000000
     m_Hash: 1961831218
   m_LockFileStatus:
     m_FilePath: /Users/uga-eun/Desktop/Flower-with-three-meals/Flower_with_three_meals/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637882863190000000
+      ticks: 637906774010000000
     m_Hash: 2642814715
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -340,6 +340,7 @@ m_PackageAssets:
         - 6.0.1
         - 6.0.2
         - 6.0.3
+        - 6.0.4
         - 7.0.0-pre.3
         - 7.0.0-pre.4
         - 7.0.0

@@ -9,6 +9,16 @@ public class SeedPlant : MonoBehaviour
     public GameObject sunflowerseed;
     public GameObject camelliaseed;
     public GameObject daisyseed;
+    public GameObject cuttonseed;
+    public GameObject foxtailseed;
+    public GameObject freesiaseed;
+    public GameObject hydrangeaseed;
+    public GameObject morningseed;
+    public GameObject tullipseed;
+    public GameObject veronicaseed;
+    public GameObject yelloseed;
+
+
     public GameObject Basicgroup;
     public GameObject flowergroup;
     public GameObject watering;
@@ -17,15 +27,17 @@ public class SeedPlant : MonoBehaviour
     public GameObject butterfly1;
     public GameObject butterfly2;
 
+    
+
     float x;
     float y;
 
     // watering count
-    float sunflowers = 0;
-    float lavenders = 0;
-    float camellias = 0;
-    float daisys = 0;
-
+    float sunflowers, lavenders, camellias, daisys,
+        cottons, foxtails, freeseias, hydrangeas, mornings,
+        tulips, veronicas, yellos = 0;
+   
+    
     // flower count
     float lcount = 0;
     float scount = 0;
@@ -38,6 +50,12 @@ public class SeedPlant : MonoBehaviour
     public GameObject lavender;
     public GameObject camellia;
     public GameObject daisy;
+    public GameObject cotton;
+    public GameObject fortail;
+    public GameObject freesia;
+    public GameObject hydragea;
+    public GameObject morning;
+    public GameObject tulip;
 
     // plant sound
     public AudioClip plant;
@@ -61,6 +79,7 @@ public class SeedPlant : MonoBehaviour
 
     }
 
+    // 1
     public void Lavender()
     {
         audiosource.clip = plant;
@@ -70,6 +89,7 @@ public class SeedPlant : MonoBehaviour
         temp.transform.SetParent(Basicgroup.transform);
     }
 
+    // 2
     public void Sunflower()
     {
         audiosource.clip = plant;
@@ -80,6 +100,7 @@ public class SeedPlant : MonoBehaviour
 
     }
 
+    // 3
     public void Camellia()
     {
         audiosource.clip = plant;
@@ -90,6 +111,7 @@ public class SeedPlant : MonoBehaviour
 
     }
 
+    // 4
     public void Daisy()
     {
         audiosource.clip = plant;
@@ -99,6 +121,89 @@ public class SeedPlant : MonoBehaviour
         temp.transform.SetParent(Basicgroup.transform);
 
     }
+
+    // 5
+    public void f5()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 나팔꽃 씨앗을 심었습니다 !");
+        temp = Instantiate(cuttonseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    // 6
+    public void f6()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 튤립 씨앗을 심었습니다 !");
+        temp = Instantiate(foxtailseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    public void f7()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 베로니카 씨앗을 심었습니다 !");
+        temp = Instantiate(freesiaseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    public void f8()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 꽃다지 씨앗을 심었습니다 !");
+        temp = Instantiate(hydrangeaseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    public void f9()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 목ㅎ 씨앗을 심었습니다 !");
+        temp = Instantiate(morningseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    public void f10()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 강아지풀 씨앗을 심었습니다 !");
+        temp = Instantiate(tullipseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    public void f11()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 프리지아 씨앗을 심었습니다 !");
+        temp = Instantiate(veronicaseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
+    public void f12()
+    {
+        audiosource.clip = plant;
+        audiosource.Play();
+        Debug.Log("당신은 수국 씨앗을 심었습니다 !");
+        temp = Instantiate(yelloseed, new Vector3(x, y, 0), Quaternion.identity);
+        temp.transform.SetParent(Basicgroup.transform);
+
+    }
+
 
     public void water()
     {
@@ -128,6 +233,39 @@ public class SeedPlant : MonoBehaviour
         {
             daisys += 1f;
         }
+        if (cuttonseed)
+        {
+            cottons += 1f;
+        }
+        if (foxtailseed)
+        {
+            foxtails += 1f;
+        }
+        if (freesiaseed)
+        {
+            freeseias += 1f;
+        }
+        if (hydrangeaseed)
+        {
+            hydrangeas += 1f;
+        }
+        if (morningseed)
+        {
+            mornings += 1f;
+        }
+        if (tullipseed)
+        {
+            tulips += 1f;
+        }
+        if (veronicaseed)
+        {
+            veronicas += 1f;
+        }
+        if (yelloseed)
+        {
+            yellos += 1f;
+        }
+        
 
         Debug.Log("lavender : " + lavenders + "sun : " + sunflowers + "camellia : " + camellias + "daisy : " + daisys);
 
@@ -155,8 +293,6 @@ public class SeedPlant : MonoBehaviour
 
         if (sunflowerseed && sunflowers >= 2 && scount == 0)
         {
-            
-            
             pos = sseed.transform.position;
             temp = Instantiate(sunflower, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
             Destroy(sseed);

@@ -21,7 +21,7 @@ public class Time : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // 6시 ~ 12시
+        
         if(hour == 1 || hour == 2 || hour == 3 || hour == 4 || hour == 5 || hour == 6 || hour == 7 )
         {
             day.SetActive(true);
